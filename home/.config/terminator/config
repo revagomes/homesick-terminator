@@ -1,0 +1,21 @@
+[global_config]
+  title_inactive_bg_color = "#363b3e"
+  title_inactive_fg_color = "#e1e1e1"
+  title_transmit_bg_color = "#936da3"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#300a24"
+    background_image = None
+    font = Monospace 13
+    foreground_color = "#ffffff"
+    use_system_font = False
